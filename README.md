@@ -55,7 +55,7 @@
    ```bash
    jupyter notebook notebooks/01_eda.ipynb
    ```
-
+```
 ## Структура проекта
 credit-scoring-ml/
 ├── README.md
@@ -65,11 +65,6 @@ credit-scoring-ml/
 │   ├── raw/                  # исходные данные (в .gitignore)
 │   ├── processed/            # обработанные данные (в .gitignore)
 │   └── sample/               # маленький сэмпл (100–200 строк) для демонстрации
-├── notebooks/
-│   ├── 01_eda.ipynb          # разведочный анализ (готов)
-│   ├── 02_preprocessing.ipynb    # предобработка (планируется)
-│   ├── 03_baseline_lr.ipynb      # логистическая регрессия (планируется)
-│   └── 04_boosting.ipynb         # Random Forest, XGBoost, CatBoost (планируется)
 ├── notebooks/
 │   ├── 01_eda.ipynb          # разведочный анализ (готов)
 │   ├── 02_preprocessing.ipynb    # предобработка (планируется)
@@ -84,6 +79,7 @@ credit-scoring-ml/
 ├── models/                   # сохранённые модели (в .gitignore)
 └── reports/                  # графики, таблицы
     └── figures/
+```
 
 ## Планы по улучшению
 - Загрузка и первичный EDA.
