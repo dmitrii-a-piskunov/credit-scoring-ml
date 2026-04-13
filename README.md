@@ -55,8 +55,9 @@
    ```bash
    jupyter notebook notebooks/01_eda.ipynb
    ```
-```
+   
 ## Структура проекта
+```
 credit-scoring-ml/
 ├── README.md
 ├── requirements.txt          # будет добавлен после определения зависимостей
