@@ -57,7 +57,7 @@
    ```
 3. Запустить Jupyter Notebook:
    ```bash
-   jupyter notebook notebooks/01_eda.ipynb
+   jupyter notebook
    ```
    
 ## Структура проекта
@@ -69,10 +69,10 @@ credit-scoring-ml/
 ├── data/
 │   ├── raw/                  # исходные данные (в .gitignore)
 │   ├── processed/            # обработанные данные (в .gitignore)
-│   └── sample/               # маленький сэмпл (100–200 строк) для демонстрации
+│   └── sample/               # пример формата выходных данных модели (15 строк) для демонстрации
 ├── notebooks/
-│   ├── 01_eda.ipynb          # разведочный анализ (готов)
-│   ├── 02_preprocessing.ipynb    # предобработка (готов)
+│   ├── 01_eda.ipynb          # разведочный анализ (готово)
+│   ├── 02_preprocessing.ipynb    # предобработка (готово)
 │   ├── 03_baseline_lr.ipynb      # логистическая регрессия (планируется)
 │   ├── 04_random_forest.ipynb    # Random Forest (планируется)
 │   ├── 05_xgboost.ipynb          # XGBoost (планируется)
