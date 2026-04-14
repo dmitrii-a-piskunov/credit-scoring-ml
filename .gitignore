@@ -3,3 +3,9 @@ data/raw/*.csv
 
 # Но не игнорировать sample-файлы (если они лежат в data/sample/)
 !data/sample/*.csv
+
+# Virtual Environment
+.venv/
+
+# IDE settings
+.vscode/
