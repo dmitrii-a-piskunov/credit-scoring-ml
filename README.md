@@ -80,6 +80,7 @@ credit-scoring-ml/
 ├── models/                   # сохранённые модели (в .gitignore)
 └── reports/                  # графики, таблицы
     └── figures/
+        └── 01_eda/
 ```
 
 ## Планы по улучшению
