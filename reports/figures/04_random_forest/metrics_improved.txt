@@ -1,0 +1,7 @@
+=== Улучшенный подбор (n_iter=50, cv=5) ===
+Лучшие параметры: {'n_estimators': 200, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': 10}
+Лучший ROC-AUC на кросс-валидации: 0.8589
+Precision: 0.2234
+Recall:    0.7060
+F1-score:  0.3394
+ROC-AUC:   0.8579
