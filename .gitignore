@@ -1,11 +1,27 @@
-# Игнорировать все CSV-файлы в папке data/raw/
-data/raw/*.csv
+# Данные (сырые и обработанные)
+data/raw/*
+!data/raw/.gitkeep
 
-# Но не игнорировать sample-файлы (если они лежат в data/sample/)
+data/processed/*
+!data/processed/.gitkeep
+
+# Но не игнорировать sample-файлы
 !data/sample/*.csv
 
-# Virtual Environment
+# Сохранённые модели
+models/*
+!models/.gitkeep
+
+# Виртуальное окружение
 .venv/
 
-# IDE settings
+# Настройки IDE
 .vscode/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Временные файлы Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
