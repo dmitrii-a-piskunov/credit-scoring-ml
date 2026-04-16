@@ -1,0 +1,18 @@
+=== Базовые метрики ===
+Precision: 0.2263
+Recall:    0.6979
+F1-score:  0.3418
+ROC-AUC:   0.8527
+
+=== Оптимизированная модель (RandomizedSearchCV) ===
+Лучшие параметры: {'subsample': 0.9, 'learning_rate': 0.05, 'l2_leaf_reg': 5, 'iterations': 200, 'depth': 7, 'colsample_bylevel': 0.8, 'border_count': 64}
+Precision: 0.2125
+Recall:    0.7687
+F1-score:  0.3329
+ROC-AUC:   0.8649
+
+=== Подбор порога (по F1) ===
+Лучший порог: 0.780
+Precision при лучшем пороге: 0.3964
+Recall при лучшем пороге:    0.4853
+F1 при лучшем пороге:        0.4364
