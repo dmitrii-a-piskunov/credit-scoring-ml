@@ -74,7 +74,8 @@ credit-scoring-ml/
 │   ├── 05_xgboost.ipynb          # XGBoost (готово)
 │   ├── 06_catboost.ipynb         # CatBoost (готово)
 │   ├── 07_visualization.ipynb    # Визуализация ROC-кривых всех моделей (готово)
-│   └── 08_final_test.ipynb       # Тестирование всех моделей на тестовой выборке (планируется)
+│   ├── 08_final_test.ipynb       # Тестирование всех моделей на тестовой выборке (планируется)
+│   └── 09_shap_analysis.ipynb    # SHAP-анализ лучшей модели
 ├── src/                      # переиспользуемые модули (планируется)
 │   ├── preprocess.py
 │   ├── train.py
