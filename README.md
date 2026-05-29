@@ -67,7 +67,7 @@
 5. Скачать данные с Kaggle:
    - Зарегистрируйтесь на Kaggle (https://www.kaggle.com/).
    - Перейдите на страницу датасета Give Me Some Credit (https://www.kaggle.com/datasets/brycecf/give-me-some-credit-dataset) и скачайте архив.
-   - Поместите файл cs-training.csv в папку data/raw/.
+   - Поместите файл `cs-training.csv` в папку `data/raw/`.
 
 6. Запустить Jupyter Notebook:
    ```bash
