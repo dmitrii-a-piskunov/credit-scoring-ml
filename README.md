@@ -47,15 +47,33 @@
    git clone https://github.com/dmitrii-a-piskunov/credit-scoring-ml.git
    cd credit-scoring-ml
    ```
-2. Установить зависимости (рекомендуется виртуальное окружение):
+2. Создать виртуальное окружение:
+   ```bash
+   python -m venv .venv
+   ```
+3. Активировать виртуальное окружение:
+   ### Windows:
+   ```bash
+   .venv\Scripts\activate
+   ```
+   ### macOS/Linux:
+   ```bash
+   source .venv/bin/activate
+   ```
+4. Установить зависимости:
    ```bash
    pip install -r requirements.txt
    ```
-3. Запустить Jupyter Notebook:
+5. Скачать данные с Kaggle:
+   - Зарегистрируйтесь на Kaggle (https://www.kaggle.com/).
+   - Перейдите на страницу датасета Give Me Some Credit (https://www.kaggle.com/datasets/brycecf/give-me-some-credit-dataset) и скачайте архив.
+   - Поместите файл cs-training.csv в папку data/raw/.
+
+6. Запустить Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
-   
+
 ## Структура проекта
 ```
 credit-scoring-ml/
